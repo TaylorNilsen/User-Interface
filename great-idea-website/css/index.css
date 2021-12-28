@@ -50,8 +50,8 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+	
 }
-
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -62,5 +62,96 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+.ofAll{
+	margin: 10px 60px 25px;
+}
+header{
+	postion: relative;
+	line-height: 38px;
+	margin: 10px 60px 0;
+	
+}
+nav a{
+	text-decoration: none;
+	color: grey;
+	position: relative;
+	margin-right: 60px;  
+
+}
+
+header nav .logo{
+	position: absolute;
+	display:inline-block;
+	right: 60px;
+}
+
+.header{
+	margin-top:60px;
+	margin-bottom: 60px;
+	
+	
+}
+.header h1{
+	display:inline-block;
+	text-align: center;
+	font-size: 80px;
+	width:50%;
+	
+}
+.header img{
+	
+	right:60px;
+}
+button{
+	background-color: white;
+	padding:5px 40px;
+}
+
+.mainContent .firstPart{
+	border-top: 1px solid black;
+	padding-top: 30px;
+  
+}
+.firstPart .features{
+	display:inline-block;
+	width: 50%;
+	
+}
+.firstPart .about{
+	display:inline-block;
+	width: 50%;
+	
+}
+div .middle-img{
+	width:90%;
+	margin: 25px 60px 25px;
+	
+}
+.middlePart{
+	border-bottom: 1px solid black;
+	margin: 25px 60px 25px;
+	padding-bottom: 30px;
+	
+}
+.middlePart .services, .product, .vision{
+	display: inline-block;
+	width:31%;
+	margin-right: 20px;
+	
+}
+.contact{
+	
+	display:inline-block;
+	width: 15%;
+	margin: 25px 60px 25px;
+	line-height: 2;
+}
+footer{
+	text-align: center;
+	margin-top: 25px;
+	padding-bottom: 80px;
+
+}
+
 
 /* Your code starts here! */
